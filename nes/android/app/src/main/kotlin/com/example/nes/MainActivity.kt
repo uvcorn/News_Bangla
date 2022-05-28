@@ -1,4 +1,4 @@
-package com.example.nes
+package com.news.bangla
 
 import io.flutter.embedding.android.FlutterActivity
 
