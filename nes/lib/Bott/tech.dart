@@ -33,7 +33,7 @@ class _TechState extends State<Tech> {
           _isAdLoaded = false;
         }, onAdClosed: (ad) {
           ad.dispose();
-          _isAdLoaded = true;
+          _isAdLoaded = false;
         }),
         request: const AdRequest());
     _bannerAd.load();
