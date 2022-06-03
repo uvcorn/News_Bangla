@@ -12,6 +12,7 @@ const List<ChoiceNational> national = <ChoiceNational>[
   ChoiceNational(title: 'Assets/bd/somoynews.png'),
   ChoiceNational(title: 'Assets/bd/jagonews24.png'),
   ChoiceNational(title: 'Assets/bd/bdnews24.png'),
+  ChoiceNational(title: 'Assets/bd/priyo.png'),
   ChoiceNational(title: 'Assets/bd/banglatribune.png'),
   ChoiceNational(title: 'Assets/bd/dhakapost.png'),
   ChoiceNational(title: 'Assets/bd/banglanews24.jpg'),
@@ -46,6 +47,7 @@ List<String> banglaNewspaperUrl = [
   'https://www.somoynews.tv/',
   'https://www.jagonews24.com',
   'https://bangla.bdnews24.com',
+  "https://news.priyo.com/",
   'https://www.banglatribune.com',
   'https://www.dhakapost.com',
   'https://www.banglanews24.com',
@@ -261,18 +263,24 @@ class Othe {
 }
 
 const List<Choiceloc> oth = <Choiceloc>[
-  Choiceloc(title: 'Assets/othert/polybd.jpg'),
+  Choiceloc(title: 'Assets/othert/daraz.png'),
   Choiceloc(title: 'Assets/othert/quora.png'),
+  Choiceloc(title: 'Assets/othert/ kobita.png'),
   Choiceloc(title: 'Assets/othert/bissoy.png'),
   Choiceloc(title: 'Assets/othert/wikipedia.png'),
+  Choiceloc(title: 'Assets/othert/dhaka_stock.png'),
+  Choiceloc(title: 'Assets/othert/bangla_plus.png'),
   Choiceloc(title: 'Assets/othert/dainikshiksha.png'),
   Choiceloc(title: 'Assets/othert/educationbangla.png'),
 ];
 List<String> othr = [
-  'https://polybd.com/',
+  'https://www.daraz.com.bd/',
   'https://bn.quora.com/',
+  "https://www.bangla-kobita.com/",
   'https://www.bissoy.com/',
   'https://bn.wikipedia.org/wiki/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE',
+  "https://www.dsebd.org/",
   'https://dainikshiksha.com',
+  'https://bangla.plus/',
   'https://educationbangla.com/',
 ];
